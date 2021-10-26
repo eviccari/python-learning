@@ -4,5 +4,5 @@ items = [
     ("Product3", 12),
 ]
 
-filtered = list(filter(lambda item: item[1] >= 10 ,items))
+filtered = list(filter(lambda item: item[1] >= 10, items))
 print(filtered)
