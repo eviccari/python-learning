@@ -13,7 +13,7 @@ class DropDownList(UIControl):
     def draw(self):
         print("DropDownList")
 
-def draw_components(controls):
+def draw_components(controls): # polymorphism
     for control in controls:
         control.draw()  
 
